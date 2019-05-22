@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+
+
+}
+h1 {
+  font-size: 38px;
+  color: blue;
+}
+h2 {
+  font-size: 32px;
+
+}
+.ingredients-list {
+  list-style: square inside;
+
+}
+
+
+ol { 
+  list-style: upper-roman inside;
+
+
+}
+
+header > img {
+  width: 100px;
+
+}
+
+ul li a {
+  text-decoration: none;
+
+}
+
+ul li a:hover {
+  color: orange;
+
+}
+
+.user_review {
+  border: solid 1px black;
+  border-color: black;
+  
+  background-color: slategray;
+  color: white;
+  padding-top: 30px;
+  margin-top: 30px;
+
+}
