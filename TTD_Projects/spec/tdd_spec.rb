@@ -52,9 +52,13 @@ RSpec.describe Array do
       it "accepts a start and end tower" do
         #expect to receive :move with some parameters that represent the towers
         expect { t.move(1)}.to raise_error(ArgumentError)
+        expect { t.move(1,2)}.to_not raise_error
       end
 
-      #should remove first disc of start, not any others
+      it "removes first disc of start, not any others" do
+        t.move(1,2)
+        expect(t.t1).to eq [2,3]
+      end
 
       #should add disc only to the front of the stack
       

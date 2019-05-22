@@ -56,8 +56,7 @@ class Towers
 
   end
 
-  def move
-  # def move(start,destination)
+  def move(start,destination)
 
     # raise 'no discs there, bro' if start.empty?
     # destination.unshift(start.shift)
